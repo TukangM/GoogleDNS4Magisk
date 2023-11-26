@@ -1,0 +1,9 @@
+id=AdGuardDNS4Magisk
+name=AdGuardDNS4Magisk
+version=v2.7f
+versionCode=27
+author=Rom, TukangM
+description=Using the "AdGuard DNS" DNS system-lessly! As simple as that and block ads and trackers.
+updateJson=https://raw.githubusercontent.com/TukangM/AdGuardDNS4Magisk/main/update.json
+support=https://forum.xda-developers.com/t/module-cloudflaredns4magisk.3772375/
+donate=https://www.paypal.com/paypalme/romfr
