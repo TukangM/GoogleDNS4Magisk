@@ -41,7 +41,7 @@ LATESTARTSERVICE=true
 
 print_modname() {
   ui_print "******************************************"
-  ui_print "             AdGuardDNS4Magisk            "
+  ui_print "              GoogleDNS4Magisk            "
   ui_print "                    2.7f                  "
   ui_print " By TukangM fork from Rom for Magisk v17+ "
   ui_print "******************************************"
@@ -105,7 +105,7 @@ resolve_conf() {
 	
 	if [ -a /system/etc/resolv.conf ]; then
 		mkdir -p $MODPATH/system/etc/
-		printf "nameserver 94.140.14.14\nnameserver 94.140.15.15" >> $MODPATH/system/etc/resolv.conf
+		printf "nameserver 8.8.8.8\nnameserver 8.8.4.4" >> $MODPATH/system/etc/resolv.conf
 		touch $MODPATH/auto_mount
 	fi
 }

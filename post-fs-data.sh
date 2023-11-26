@@ -25,8 +25,8 @@ resetprop -n net.rmnet1.dns2 94.140.15.15
 resetprop -n net.pdpbr1.dns1 94.140.14.14
 resetprop -n net.pdpbr1.dns2 94.140.15.15
 
-resetprop -n 2606:4700:4700::1111
-resetprop -n 2606:4700:4700::1001
+resetprop -n 2001:4860:4860::8888
+resetprop -n 2001:4860:4860::8844
 
 
 
