@@ -34,6 +34,6 @@ resetprop -n 2001:4860:4860::8844
 
 if [ -a /system/etc/resolv.conf ]; then
 	mkdir -p $MODDIR/system/etc/
-	printf "nameserver 94.140.14.14\nnameserver 94.140.15.15" >> $MODDIR/system/etc/resolv.conf
+	printf "nameserver 8.8.8.8\nnameserver 8.8.4.4" >> $MODDIR/system/etc/resolv.conf
 	chmod 644 $MODDIR/system/etc/resolv.conf
 fi
